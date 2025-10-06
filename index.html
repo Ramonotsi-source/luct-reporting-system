@@ -1,17 +1,66 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang=""en"">
 <head>
-  <title>LUCT Reporting System</title>
+  <meta charset=""UTF-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""/>
+  <title>LUCT Reporting System - Project Files</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #2c3e50; }
-    .status { color: green; font-weight: bold; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      color: #24292f;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #0d6efd;
+      border-bottom: 2px solid #eaecef;
+      padding-bottom: 10px;
+    }
+    .file-tree {
+      background: white;
+      border: 1px solid #d0d7de;
+      border-radius: 6px;
+      padding: 16px;
+      font-family: SFMono-Regular, Consolas, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .folder { color: #953800; font-weight: bold; }
+    .file { color: #1a7f37; }
+    .note {
+      margin-top: 20px;
+      padding: 12px;
+      background: #e6f4ea;
+      border-left: 4px solid #34a853;
+      font-size: 14px;
+    }
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>✅ LUCT Reporting System</h1>
-  <p class="status">FRONTEND IS LIVE!</p>
-  <p>Backend: Connected to live API</p>
-  <p><em>Submitted for University Assignment</em></p>
+  <h1>📁 LUCT Reporting System</h1>
+  
+  <div class="file-tree">
+    📂 luct-reporting-system/<br>
+    &nbsp;&nbsp;├── 📂 <span class="folder">frontend/</span><br>
+    &nbsp;&nbsp;├── 📂 <span class="folder">backend/</span><br>
+    &nbsp;&nbsp;├── 📄 <span class="file">luct.sql</span><br>
+    &nbsp;&nbsp;├── 📄 <span class="file">README.md</span><br>
+    &nbsp;&nbsp;└── 📄 <span class="file">.gitignore</span>
+  </div>
+
+  <div class="note">
+    ✅ Full-stack university assignment<br>
+    💻 Frontend + Backend + Database included<br>
+    🔗 Source: <a href=""https://github.com/Ramonotsi-source/luct-reporting-system"" target=""_blank"">View on GitHub</a>
+  </div>
 </body>
 </html>
