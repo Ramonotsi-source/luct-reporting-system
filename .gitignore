@@ -4,5 +4,7 @@
 npm-debug.log
 dist/
 build/
+venv/
+__pycache__/
 .DS_Store
 Thumbs.db
