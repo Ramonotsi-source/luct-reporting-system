@@ -1,0 +1,19 @@
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .role-tag {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 50px;
+    font-weight: 500;
+    color: white;
+  }
+  
+  .role-student { background: #3498db; }
+  .role-lecturer { background: #27ae60; }
+  .role-prl { background: #8e44ad; }
+  .role-pl { background: #d35400; }

@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Espresso",
+      "description": "Strong coffee shot",
+      "category": "Beverage",
+      "price": 2.5,
+      "quantity": 20
+    },
+    {
+      "name": "Croissant",
+      "description": "Buttery pastry",
+      "category": "Bakery",
+      "price": 1.5,
+      "quantity": 10
+    }
+  ]
